@@ -29,7 +29,7 @@ flowchart LR
     subgraph 管理者
         M1[全体状況を把握する] --> M2[拠点別に確認する]
     end
-    subgraph 設定・管理
+    subgraph 設定/管理
         A1[閾値を設定する] --> A2[通知先を管理する]
         A2 --> A3[ユーザーを管理する]
     end
